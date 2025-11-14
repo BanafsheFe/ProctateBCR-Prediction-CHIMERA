@@ -27,14 +27,6 @@ conda activate ProctateBCR
 pip install -r requirements.txt
 ```
 
-
-
-## Model Architecture
-ProViCNet consists of two main components:
-1. **Feature Extractor**: Based on DINOv2 vision transformer architecture + Patch-level contrastive learning
-2. **Segmentation Head**: Specialized decoder for precise cancer region delineation
-
-
 ## ProctateBCR prediction
 
 
