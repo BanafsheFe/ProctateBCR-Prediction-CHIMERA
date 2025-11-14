@@ -1,6 +1,3 @@
-# ProctateBCR-Prediction-CHIMERA
-
-
 
 # ProctateBCR-Prediction-CHIMERA
 **Multimodal model for BCR Prediction in Prostate Cancer **  
