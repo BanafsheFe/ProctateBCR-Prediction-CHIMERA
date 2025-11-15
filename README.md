@@ -23,9 +23,29 @@ conda activate ProctateBCR
 # Install required packages
 pip install -r requirements.txt
 ```
+## 📁 Project Structure
 
-## ProctateBCR prediction
-
+project_root/
+│
+├── ProViCNet/                    # Foundational model architecture (from ProViCNet paper)
+│
+├── models/                       # Model definitions
+│   ├── survival_heads.py         # Survival heads (e.g., FullModelTokens_tiny)
+│   ├── Loss_functions.py         # Losses such as Cox loss and C-index
+│
+├── data/                         # Data loaders and generators
+│   └── generators.py             # Survival_3MRI_Generator and related pipelines
+│
+├── my_utils/                     # Utility functions
+│   ├── training_utils.py         # Training helpers (run_one_epoch, build_dataloaders, ...)
+│   ├── model_utils.py            # Model creation & patch-token extraction utilities
+│
+├── configs/
+│   └── config_train_survival.yaml  # Configuration file for training
+│
+├── main.py                       # Entry point; includes training loop and argument parsing
+│
+└── requirements.txt              # Python dependencies
 
 
 
