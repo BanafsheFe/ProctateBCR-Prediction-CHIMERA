@@ -1,6 +1,6 @@
 
 # ProctateBCR-Prediction-CHIMERA
-**Multimodal model for BCR Prediction in Prostate Cancer **  
+** Multimodal model for BCR Prediction in Prostate Cancer **  
 
 ## Overview  
 This is a BCR prostate cancer risk model designed for integrating information from three MRI modalities (T2, ADC, DWI) and patient clinical data within a unified pipeline. Each MRI scan of a patient is forwarded to a prostate-specific foundational model, ProViCNet (https://doi.org/10.48550/arXiv.2502.00366) ​, which acts as a modality-specific feature extraction backbone, producing tokenized embeddings with a shared dimensionality. These tokenized modality representations are treated as independent tokens and pooled across patches within each modality to form patient-level embedding’s. 
@@ -59,6 +59,8 @@ python trainBCR.py --config_file config_MRI.yaml
 ```
 
 
+## Hugging Face
+https://huggingface.co/BanafsheFelfeliyan/ProctateBCR-Prediction-CHIMERA/tree/main/weights
 
 ## Acknowledgement
 Thanks to the https://github.com/lucidrains/byol-pytorch for ProViCNet implement.<br>(https://github.com/pimed/ProViCNet)
