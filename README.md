@@ -43,12 +43,20 @@ project_root/
 ├── configs/
 │   └── config_train_survival.yaml  # Configuration file for training
 │
-├── main.py                       # Entry point; includes training loop and argument parsing
+├── trainBCR.py
+├── my_inference.py
+├── clinical_data_analysis.py                              
 │
 └── requirements.txt              # Python dependencies
 ```
 
+## Usage
+### Training
 
+```bash
+python trainBCR.py --config_file config_MRI.yaml
+
+```
 
 
 
