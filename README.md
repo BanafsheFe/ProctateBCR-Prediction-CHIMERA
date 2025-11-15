@@ -24,7 +24,7 @@ conda activate ProctateBCR
 pip install -r requirements.txt
 ```
 ## 📁 Project Structure
-
+```bash
 project_root/
 │
 ├── ProViCNet/                    # Foundational model architecture (from ProViCNet paper)
@@ -46,7 +46,7 @@ project_root/
 ├── main.py                       # Entry point; includes training loop and argument parsing
 │
 └── requirements.txt              # Python dependencies
-
+```
 
 
 
