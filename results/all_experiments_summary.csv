@@ -1,0 +1,5 @@
+experiment_name,mean_c_index,std_c_index,mean_HR,std_HR,n_folds
+mpMRI_BCR_prediction__tiny,0.648,0.054,9.102153064010947e+23,2.035303299273647e+24,5
+mpMRI_BCR_prediction__tiny_sinlgeloss_cox,0.647,0.092,206423.09,460676.935,5
+mpMRI_BCR_prediction__tiny_sinlgeloss_cox_clinical,0.678,0.056,50492941.067,112905576.46,5
+mpMRI_BCR_prediction__tiny_sinlgeloss_cox_clinical_1MRI,0.676,0.161,6.417859605301291e+70,1.4350770347503657e+71,5

@@ -1,0 +1,7 @@
+,,experiment_name,fold,c_index,HR,mean_c_index,std_c_index,mean_HR,std_HR,n_folds
+fold_results,0,mpMRI_BCR_prediction__tiny,0.0,0.714,7.598,,,,,
+fold_results,1,mpMRI_BCR_prediction__tiny,1.0,0.674,0.0,,,,,
+fold_results,2,mpMRI_BCR_prediction__tiny,2.0,0.662,0.082,,,,,
+fold_results,3,mpMRI_BCR_prediction__tiny,3.0,0.615,0.01,,,,,
+fold_results,4,mpMRI_BCR_prediction__tiny,4.0,0.576,4.551076532005473e+24,,,,,
+summary,0,mpMRI_BCR_prediction__tiny,,,,0.648,0.054,9.102153064010947e+23,2.035303299273647e+24,5.0

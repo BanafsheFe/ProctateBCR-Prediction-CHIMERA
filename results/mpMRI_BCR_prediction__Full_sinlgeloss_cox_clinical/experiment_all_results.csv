@@ -1,0 +1,7 @@
+,,experiment_name,fold,c_index,HR,mean_c_index,std_c_index,mean_HR,std_HR,n_folds
+fold_results,0,mpMRI_BCR_prediction__Full_sinlgeloss_cox_clinical,0.0,0.881,21075450133932.348,,,,,
+fold_results,1,mpMRI_BCR_prediction__Full_sinlgeloss_cox_clinical,1.0,0.607,3049.829,,,,,
+fold_results,2,mpMRI_BCR_prediction__Full_sinlgeloss_cox_clinical,2.0,0.571,0.0,,,,,
+fold_results,3,mpMRI_BCR_prediction__Full_sinlgeloss_cox_clinical,3.0,0.551,0.0,,,,,
+fold_results,4,mpMRI_BCR_prediction__Full_sinlgeloss_cox_clinical,4.0,0.763,inf,,,,,
+summary,0,mpMRI_BCR_prediction__Full_sinlgeloss_cox_clinical,,,,0.675,0.142,inf,,5.0

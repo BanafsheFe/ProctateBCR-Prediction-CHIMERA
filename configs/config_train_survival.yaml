@@ -1,0 +1,19 @@
+Modality: 'mpMRI'
+
+paths:
+  radiology_data_path: "/Multimodal-Quiz/radiology"
+  mpMRI_folder: "mpMRI"
+  mask_folder: "prostate_mask_t2w"
+  clinical_folder: "/Multimodal-Quiz/clinical_data"
+
+file_extensions:
+  T2: "_0001_t2w.mha"
+  ADC: "_0001_adc.mha"
+  DWI: "_0001_hbv.mha"
+  Gland: "_0001_mask.mha"
+  Cancer: "_0001_mask.mha"
+
+FOLD_IDX: 0
+
+SplitValidation:
+  internal_split: "/Multimodal-Quiz/data_split_5fold.csv"
